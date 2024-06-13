@@ -949,6 +949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4961119775428482746, guid: 2cd9f5f80db1f9446a7a8ee6f42d0cc8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6030570227693209569, guid: 2cd9f5f80db1f9446a7a8ee6f42d0cc8,
         type: 3}
       propertyPath: m_RootOrder
