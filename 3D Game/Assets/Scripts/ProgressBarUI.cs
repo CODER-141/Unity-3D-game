@@ -13,7 +13,7 @@ public class ProgressBarUI : MonoBehaviour{
 
     private void Start() {
         hasProgress= hasProgressGameObject.GetComponent<IHasProgress>();
-        if (hasProgress != null) {
+        if (hasProgress == null) {
             Debug.LogError("Game Object " + hasProgressGameObject + " does not have a component that implements IHasProgress!");
         }
         hasProgress.onProgressChanged += HasProgress_onProgressChanged;
